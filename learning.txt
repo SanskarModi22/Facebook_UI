@@ -1,0 +1,20 @@
+1)New way of importing a file by exporting all tye files in a single file and importing it in a a desired file. It helps us from the hassle of importing the file of every widget again and again.
+
+2)We have added 2 dependencies in pubsec.yaml 
+      1)Material icons ---> Give us access to the material icons.
+      2)Cached data 
+
+3)Made a sliver app Bar.
+
+4)We have created a CircleButton class for our IconButton which saves us from the hassle of creating a icon button again and again.
+
+5)Here we learned how to use SliverToBoxAdapter.New widgets learned ---> Vertical Divider. We give a const value to Sized Box so that it not re renders everytie we load our screen.
+
+6)Next we made a Room button in the next row, Here I learned some new widgets which are
+                    1)Outline Button
+                    2) Shader Mask
+
+7)Then we made a ProfileButton with a active icon. Here we used a Positioned Widget and Stack.
+
+8)Now we created Story Cards in the next row , Some new widgets used were TextOverflow , ClipRRrect.
+
