@@ -16,7 +16,7 @@ class StoryCards extends StatelessWidget {
       height: 180.0,
       color: Colors.white,
       child: ListView.builder(
-        itemCount: 1 + stories.length,
+        itemCount:  stories.length,
         scrollDirection: Axis.horizontal,
         itemBuilder: (BuildContext context, item) {
           if (item == 0) {
@@ -30,7 +30,7 @@ class StoryCards extends StatelessWidget {
               ),
             );
           }
-          final Story story = stories[item - 1];
+          final Story story = stories[item];
           return Padding(
             padding: EdgeInsets.symmetric(horizontal: 8.0),
             child: _StoryCard(

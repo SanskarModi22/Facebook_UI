@@ -17,4 +17,7 @@
 7)Then we made a ProfileButton with a active icon. Here we used a Positioned Widget and Stack.
 
 8)Now we created Story Cards in the next row , Some new widgets used were TextOverflow , ClipRRrect.
+9)In the next rows we created posts in which basically we were using more of rows, columns and icon buttons.
+
+10)We created a Bottom Navbar in which we learnedabout some new methods and some new widets like TabIconView , IndexedStack,TabBar,Default Tab Controller
 

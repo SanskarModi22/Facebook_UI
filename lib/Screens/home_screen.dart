@@ -1,4 +1,5 @@
 import 'package:facebook_ui/Widgets/rooms.dart';
+import 'package:facebook_ui/models/models.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:facebook_ui/Widgets/create_post_container.dart';
@@ -74,7 +75,12 @@ class HomeScreen extends StatelessWidget {
                 stories:stories,
               ),
             ),
-          )
+          ),
+          SliverList(delegate: SliverChildBuilderDelegate((context,index){
+
+            final Post post = posts[index];
+            return PostContainer(post:post);
+          },),),
         ],
       ),
     );

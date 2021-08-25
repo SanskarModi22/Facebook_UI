@@ -14,7 +14,7 @@ class Rooms extends StatelessWidget {
       height: 60.0,
       color: Colors.white,
       child: ListView.builder(
-        itemCount: 1 + onlineUsers.length,
+        itemCount:  onlineUsers.length,
         scrollDirection: Axis.horizontal,
         itemBuilder: (BuildContext context, item) {
           if (item == 0) {
@@ -25,7 +25,7 @@ class Rooms extends StatelessWidget {
                 ),
                 child: _CreateRoomButton());
           }
-          final User user = onlineUsers[item - 1];
+          final User user = onlineUsers[item ];
           return Padding(
             padding: EdgeInsets.symmetric(horizontal: 8.0),
             child: ProfileAvatar(
